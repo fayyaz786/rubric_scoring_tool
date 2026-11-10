@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "exact_bullets": 3,
+    "max_words_per_bullet": 15,
+    "last_line_starts_with": "Recommendation:",
+    "banned_phrases": ["industry average", "churn"]
+  },
+  "responses": {
+    "Response A": "* Support tickets jumped 28% in Q3, driven mainly by the July billing system launch.\n* Average response time more than doubled, rising from 4 hours to 9 hours.\n* Customer satisfaction dropped sharply from 86% to 74%, a loss of 12 percentage points, putting us below the industry average.\n* Churn risk is rising and could cost revenue.\n\nRecommendation: Hire three more support agents to cut response time below 5 hours within six weeks.",
+    "Response B": "* Support tickets rose 28% in Q3, mainly due to the new billing system.\n* Average response time grew from 4 hours to 9 hours.\n* Customer satisfaction fell from 86% to 74%.\n\nHiring three more agents should bring response time under 5 hours in six weeks.",
+    "Gold standard": "* Support tickets rose 28% in Q3, mainly due to July's new billing system.\n* Average response time more than doubled, from 4 hours to 9 hours.\n* Customer satisfaction fell from 86% to 74%.\n\nRecommendation: Hire three more support agents to bring response time under 5 hours within six weeks."
+  }
+}

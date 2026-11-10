@@ -1,0 +1,7 @@
+sample_id,response,accuracy,completeness,instruction_following,reasoning,clarity,safety,worst_severity
+cagr_calculation,A,1,4,4,2,4,2,Critical
+cagr_calculation,B,5,5,5,5,5,5,None
+six_sigma_fact_check,A,1,4,5,3,5,1,Critical
+six_sigma_fact_check,B,5,5,5,5,5,5,None
+executive_summary,A,2,5,1,3,4,2,Critical
+executive_summary,B,5,4,4,4,5,5,Major
